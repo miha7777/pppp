@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="wraper">
-    <header class="header"> 
+    <header class="header" id="head"> 
         <div class="header__backround">
             <div class="header__block">
                 <div class="header__flex">
@@ -140,8 +140,8 @@
                         </div>
                         <div class="about__info-text">
                             <div class="about__info-text-text">
-                                <div class="about__info-text-text__an">
                                     Web developer, with extensive knowledge and years of experience, working in web technologies and Web design, delivering quality work
+                                    <div class="about__info-text-text__an">
                                 </div>
                             </div>
                             <div class="about__info-text-card">
@@ -496,19 +496,56 @@
                         </li>
                     </ul>
                     <div class="experiense__item-block__text__icons">
-                    <a class="experiense__item-block__text__icon2 btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
-                        <i class="fa-brands fa-twitter"></i>
+                    <a class="experiense__item-block__text__icon2 btn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom">
+                        <i class="fa-solid fa fa-phone"></i>
                     </a>   
-                    <a class="experiense__item-block__text__icon2 btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
-                        <i class="fa-brands fa-instagram"></i>
+                    <a class="experiense__item-block__text__icon2 btn"
+                    class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">
+                        <i class="fa-brands fa fa-instagram"></i>
                     </a>   
                     <a class="
-                    experiense__item-block__text__icon2 btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
-                        <i class="fa-brands fa-facebook-f"></i>
+                    experiense__item-block__text__icon2 btn"
+                    class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">
+                        <i class="fa-brands fa fa-facebook-f"></i>
                     </a>   
-                    </div>
-    
-                    </div>
+                    <a class="experiense__item-block__text__icon2 btn" href="#head">
+                        <div class="header-img__block-animate">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </a>
+                </div>
+
+<div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header2 offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+    </button>
+    <div class="modal-header__info">
+        <div class="modal-header__title">My Facebook</div>
+      <div class="modal-header__text">none</div>  
+      </div>
+  </div>
+</div>
+<div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header2 offcanvas-header">
+      <button type="button" class="btn-close bbbbb text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+      </button>
+      <div class="modal-header__info">
+          <div class="modal-header__title">My Instagram</div>
+        <div class="modal-header__text">-M.I.C-</div>  
+        </div>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header2 offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+      </button>
+      <div class="modal-header__info">
+          <div class="modal-header__title">My telefon</div>
+        <div class="modal-header__text">0985865027</div>  
+        </div>
+    </div>
+  </div>
+            </div>
         </div>
 </footer>
 
